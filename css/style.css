@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1; 
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0c2243;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d95454;
+}
+
+.topnav input[type="text"] {
+    width: 180px;
+    padding: 8px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #d95454;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+}
+
+ul.onderwerpen {
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.6;
+    background-color: #e16363;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    list-style: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+ul.onderwerpen li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.promo-video {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fotos figure {
+    margin: 0;
+    flex: 1;
+    max-width: 33.33%;
+    text-align: center;
+}
+
+.fotos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h2 { font-size: 2.5rem; }
+h3, h4 { font-size: 1.8rem; }
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #fff;
+}
+
+a {
+    color: #ff1a1a;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d95454;
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.team figure {
+    width: 45%;
+    text-align: center;
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.team figure img:hover { transform: scale(1.1); }
+
+.team figcaption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.aflevering {
+    background-color: #284d74;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.aflevering:hover {
+    transform: translateY(-5px);
+}
+
+.aflevering img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.aflevering img:hover { transform: scale(1.1); }
+
+.aflevering p {
+    font-size: 1rem;
+}
+
+.aflevering p a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.aflevering p a:hover {
+    color: #d95454;
+}
+
+.volgen {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#volgknop {
+    background-color: #071c3a;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#volgknop:hover { background-color: #097015; }
+
+footer {
+    background-color: #071c3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p { margin-bottom: 10px; }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #d95454;
+}
